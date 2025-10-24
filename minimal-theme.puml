@@ -1,3 +1,4 @@
+!theme mono
 hide circle
 skinparam linetype ortho
 hide empty methods
@@ -71,3 +72,36 @@ skinparam NoteFontSize 12
 '—— Associations
 skinparam AssociationFontColor black
 skinparam AssociationFontSize 11
+
+'—— Sequence Diagram support
+hide footbox
+skinparam sequenceMessageAlign center
+
+skinparam BoxPadding 0
+skinparam ArrowThickness 1
+
+' actor and box filling colors
+skinparam ActorBackgroundColor white
+skinparam BoxBackgroundColor white
+skinparam ParticipantBackgroundColor white
+skinparam GroupBackgroundColor white
+
+' thicker lines
+skinparam ActorBorderThickness 1.5
+skinparam ParticipantBorderThickness 1.5
+
+skinparam participant<<boundary>> {
+  BackgroundColor #E0F7FA
+  BorderColor #006064
+}
+
+skinparam participant<<control>> {
+  BackgroundColor #F3E5F5
+  BorderColor #4A148C
+}
+
+skinparam participant<<entity>> {
+  BackgroundColor #FFF3E0
+  BorderColor #E65100
+}
+
