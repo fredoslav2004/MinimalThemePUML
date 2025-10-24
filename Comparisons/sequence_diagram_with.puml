@@ -1,0 +1,3 @@
+@startuml SequenceDiagramWithTheme
+!include ./minimal-theme.puml
+!include sequence_diagram.puml

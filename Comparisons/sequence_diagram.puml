@@ -1,0 +1,47 @@
+participant Participant as Foo
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+== Second Part ==
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+Foo7 --> Foo : Return from queue
+note right: This is a note
+
+Foo1 -> Foo2: Authentication Request
+
+alt successful case
+
+    Foo2 -> Foo1: Authentication Accepted
+
+else some kind of failure
+
+    Foo2 -> Foo1: Authentication Failure
+    group My own label
+    Foo1 -> Log : Log attack start
+        loop 1000 times
+            Foo1 -> Foo2: DNS Attack
+        end
+    Foo1 -> Log : Log attack end
+    end
+
+else Another type of failure
+
+   Foo2 -> Foo1: Please repeat
+
+end
+
+Foo -> Foo1 : hello
+activate Foo1
+Foo1 --> Foo1 : some action
+return bye
+@enduml
