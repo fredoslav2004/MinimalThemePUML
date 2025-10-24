@@ -14,7 +14,7 @@ To use the theme in your PlantUML diagrams, include the `minimal-theme.puml` fil
 ## Using the Permalink
 
 ```plantuml
-!include https://raw.githubusercontent.com/fredoslav2004/PlantUMLAstahTheme/e6795a75a396d14eee91444c83e736a4037bdcf9/minimal-theme.puml
+!include https://raw.githubusercontent.com/fredoslav2004/MinimalThemePUML/e6795a75a396d14eee91444c83e736a4037bdcf9/minimal-theme.puml
 ```
 
 ## Using the Local File
