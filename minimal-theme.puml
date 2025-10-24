@@ -1,11 +1,10 @@
 !theme mono
 hide circle
-skinparam linetype ortho
 hide empty methods
+hide footbox
 
+skinparam linetype ortho
 skinparam Shadowing false
-skinparam BackgroundColor white
-skinparam Monochrome true
 skinparam RoundCorner 0
 skinparam Padding 3
 skinparam dpi 110
@@ -14,94 +13,43 @@ skinparam DefaultFontSize 13
 skinparam WrapWidth 0
 skinparam Guillemet false
 
-'—— Lines & arrows
-skinparam LineColor black
-skinparam LineThickness 1
-skinparam ArrowColor black
-skinparam ArrowThickness 1
-
-'—— Classes
-skinparam ClassBorderColor black
-skinparam ClassBackgroundColor white
-skinparam ClassBorderThickness 1
-skinparam ClassFontColor black
-skinparam ClassFontSize 13
+' Classes
 skinparam ClassBorderRoundCorner 0
-
-' Kill all UML icons (header + attributes/methods)
+skinparam ClassBorderThickness 1
+skinparam ClassFontSize 13
 skinparam ClassAttributeIconSize 0
 skinparam ClassHeaderIconSize 0
+skinparam ClassAttributeFontSize 12
+skinparam ClassMethodFontSize 12
 skinparam UseUML2ForComponent false
 
-skinparam ClassAttributeFontColor black
-skinparam ClassAttributeFontSize 12
-skinparam ClassMethodFontColor black
-skinparam ClassMethodFontSize 12
-
-'—— Interfaces
-skinparam InterfaceBorderColor black
-skinparam InterfaceBackgroundColor white
+' Interfaces
 skinparam InterfaceBorderThickness 1
-skinparam InterfaceFontColor black
 skinparam InterfaceFontSize 13
 skinparam InterfaceBorderRoundCorner 0
 skinparam LollipopColor black
 
-'—— Abstract classes / Enums
+' Abstract classes / Enums
 skinparam AbstractClassFontStyle italic
-skinparam EnumBackgroundColor white
-skinparam EnumBorderColor black
 skinparam EnumBorderRoundCorner 0
 
-'—— Packages
+' Packages
 skinparam PackageStyle rectangle
-skinparam PackageBackgroundColor white
-skinparam PackageBorderColor black
 skinparam PackageBorderThickness 1
 skinparam PackageBorderRoundCorner 0
-skinparam PackageFontColor black
 skinparam PackageFontSize 13
 
-'—— Notes
-skinparam NoteBackgroundColor white
-skinparam NoteBorderColor black
+' Notes
 skinparam NoteBorderRoundCorner 0
-skinparam NoteFontColor black
 skinparam NoteFontSize 12
 
-'—— Associations
-skinparam AssociationFontColor black
+' Associations
 skinparam AssociationFontSize 11
 
-'—— Sequence Diagram support
-hide footbox
+' Sequence Diagram tweaks
 skinparam sequenceMessageAlign center
-
 skinparam BoxPadding 0
-skinparam ArrowThickness 1
 
-' actor and box filling colors
-skinparam ActorBackgroundColor white
-skinparam BoxBackgroundColor white
-skinparam ParticipantBackgroundColor white
-skinparam GroupBackgroundColor white
-
-' thicker lines
+' Sequence participants / actors
 skinparam ActorBorderThickness 1.5
 skinparam ParticipantBorderThickness 1.5
-
-skinparam participant<<boundary>> {
-  BackgroundColor #E0F7FA
-  BorderColor #006064
-}
-
-skinparam participant<<control>> {
-  BackgroundColor #F3E5F5
-  BorderColor #4A148C
-}
-
-skinparam participant<<entity>> {
-  BackgroundColor #FFF3E0
-  BorderColor #E65100
-}
-
