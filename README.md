@@ -9,18 +9,21 @@ Support for more types of diagrams is the main aim of future development.
 
 # Usage
 
-To use the theme in your PlantUML diagrams, include the `astah-min.puml` file at the beginning of your PlantUML source code like this:
+To use the theme in your PlantUML diagrams, include the `minimal-theme.puml` file at the beginning of your PlantUML source code like this:
 
+## Using the Permalink
+
+```plantuml
+!include https://raw.githubusercontent.com/fredoslav2004/PlantUMLAstahTheme/e6795a75a396d14eee91444c83e736a4037bdcf9/minimal-theme.puml
 ```
-' valid permalink
 
-!include https://raw.githubusercontent.com/fredoslav2004/PlantUMLAstahTheme/e6795a75a396d14eee91444c83e736a4037bdcf9/astah-min.puml
+## Using the Local File
 
-' alternatively download the `minimal-theme.puml` file and reference it locally like this:
-
+```plantuml
 !include .\minimal-theme.puml
 
 ```
+
 # Affiliation
 
 This project is not affiliated with or endorsed by the Astah software or its developers in any way.
