@@ -1,2 +1,2 @@
-@startuml ClassDiagramWithTheme
+@startuml ClassDiagramWithoutTheme
 !include class_diagram.puml

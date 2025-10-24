@@ -2,6 +2,12 @@
 
 A theme for PlantUML that gives it a minimalistic mostly black-and-white appearance similar to some of the default styled diagrams made using [Astah](https://astah.net/).
 
+# Preview
+
+![Class Diagram With Minimal Theme](out/Comparisons/class_diagram_with/ClassDiagramWithTheme.png)
+
+![Class Diagram Without Minimal Theme](out/Comparisons/class_diagram_without/ClassDiagramWithoutTheme.png)
+
 # Scope
 
 The theme is designed mostly for class diagrams, but also works for other UML diagrams supported by PlantUML.
