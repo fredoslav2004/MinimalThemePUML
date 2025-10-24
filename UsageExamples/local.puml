@@ -1,0 +1,4 @@
+@startuml ExampleUML
+!include ./minimal-theme.puml
+
+!include example.puml

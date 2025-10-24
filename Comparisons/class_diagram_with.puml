@@ -1,0 +1,3 @@
+@startuml ClassDiagramWithTheme
+!include ./minimal-theme.puml
+!include class_diagram.puml
